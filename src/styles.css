@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid purple;
+}
+
+.logo {
+  width: 100px;
+}
+.sections > ol {
+  display: flex;
+  list-style: none;
+}
+.sections > ol > li {
+  padding: 10px;
+}
+.sections > ol > li,
+.enroll {
+  font-size: 20px;
+}
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images {
+  margin: 10px;
+}
+
+.cats {
+  border-radius: 20px;
+  width: 150px;
+  margin: 10px;
+  height: 200px;
+  cursor: pointer;
+  border: solid yellow;
+}
+
+.firma {
+  color: blueviolet;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firma > h2 {
+  background-color: black;
+  color: white;
+  width: 300px;
+  text-align: center;
+  font-style: oblique;
+  border-radius: 15px;
+}
